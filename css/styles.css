@@ -1,0 +1,67 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: #4f5051;
+    background: #f4f4f4;
+  }
+}
+
+body {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #4f5051;
+  background: #f4f4f4;
+}
+
+.header {
+  background: #f4f4f4 url("../images/bg.jpg") center center no-repeat;
+  background-size: cover;
+  color: #646128;
+}
+
+.footer {
+  color: #646128;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  z-index: 10;
+}
+
+/* unvisited link */
+a:link {
+  color: #8e8d7c;
+}
+
+/* visited link */
+a:visited {
+  color: #4f4d1f;
+}
+
+/* mouse over link */
+a:hover {
+  color: #646128;
+}
+
+/* selected link */
+a:active {
+  color: #646128;
+}
+
+i {
+  color: #8e8d7c;
+}
+
+a:hover i {
+  color: #646128;
+}
